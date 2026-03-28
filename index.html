@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simran Goyal Portfolio</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="navbar">
+    <div class="menu-toggle">☰</div>
+    <div class="menu-close">✕</div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="theme-toggle">🌙</button>
+</nav>
+
+<header id="home">
+    <!-- ✅ Profile Photo Added -->
+    <img src="image.png" alt="Simran Goyal" class="profile-pic">
+
+    <h1>Simran Goyal</h1>
+    <p><span id="typing"></span></p>
+</header>
+
+<section id="about" class="about hidden">
+    <h2>About Me</h2>
+    <p>
+I am a final-year B.Tech student specializing in Internet of Things, with a strong foundation in Data Structures, SQL, and web development. 
+I enjoy building real-world solutions that combine software and hardware, such as IoT systems and data-driven applications.
+
+My experience includes developing dashboards for data analysis, responsive web applications, and embedded systems projects. 
+I am particularly interested in database management, backend development, and creating user-friendly digital experiences.
+
+I am a quick learner with a problem-solving mindset, always eager to explore new technologies and contribute effectively in a team. 
+Currently, I am seeking an opportunity to grow where I can apply my skills and continue learning.
+</p>
+<!-- 📄 Resume Button -->
+    <a href="resume_fin.pdf" download class="resume-btn">
+        Download Resume 📄
+    </a>
+</section>
+
+<section id="skills" class="skills hidden">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+        <!-- Programming -->
+        <div class="skill-category">
+            <h3>💻 Programming</h3>
+            <div class="skill-icons">
+                <span>Python</span>
+                <span>C</span>
+                <span>JavaScript</span>
+                <span>SQL</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+            </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category">
+            <h3>⚙️ Frameworks & Libraries</h3>
+            <div class="skill-icons">
+                <span>NumPy</span>
+                <span>Pandas</span>
+                <span>Tailwind CSS</span>
+                <span>Bootstrap</span>
+            
+            </div>
+        </div>
+
+        <!-- Data Tools -->
+        <div class="skill-category">
+            <h3>📊 Data & Analytics</h3>
+            <div class="skill-icons">
+                <span>Power BI</span>
+                <span>Tableau</span>
+                <span>MS Excel</span>
+                <span>Jupyter Notebook</span>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category">
+            <h3>🛠️ Tools</h3>
+            <div class="skill-icons">
+                <span>VS Code</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Canva</span>
+            </div>
+        </div>
+
+        <!-- Core CS -->
+        <div class="skill-category">
+            <h3>🧠 Core CS</h3>
+            <div class="skill-icons">
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+                <span>OOP</span>
+                <span>DBMS</span>
+                <span>Operating Systems</span>
+                <span>Computer Organization</span>
+                <span>Compiler Design</span>
+                <span>Theory of Computation</span>
+                <span>Discrete Math</span>
+            </div>
+        </div>
+
+        <!-- IoT -->
+        <div class="skill-category">
+            <h3>📡 IoT & Embedded</h3>
+            <div class="skill-icons">
+                <span>Microcontrollers</span>
+                <span>Arduino</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projects" class="projects hidden">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+        <!-- Project Card -->
+        <div class="project-card">
+            <img src="APD.png" alt="Pill Dispenser">
+            <div class="overlay">
+                <h3>Automatic Pill Dispenser</h3>
+                <p>IoT system for scheduled medicine delivery</p>
+                <span class="tag">IoT</span>
+                <a href="https://github.com/Goyalsimran14/Arduino-Based-Automatic-Pill-Dispenser">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="GD.png" alt="Dashboard">
+            <div class="overlay">
+                <h3>GATE Dashboard</h3>
+                <p>Data analytics with Python & visualization</p>
+                <span class="tag">Data</span>
+                <a href="https://github.com/Goyalsimran14/dashboard">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="KS.png" alt="KrishiSarthi">
+            <div class="overlay">
+                <h3>KrishiSarthi</h3>
+                <p>React platform with chatbot integration</p>
+                <span class="tag">Web</span>
+                <a href="https://github.com/Goyalsimran14/KrishiSarthi">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="HMS.png" alt="Hospital">
+            <div class="overlay">
+                <h3>Hospital Management</h3>
+                <p>Patient & appointment system (Flask + SQL)</p>
+                <span class="tag">Web</span>
+                <a href="https://github.com/Goyalsimran14/hospital_management_system">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="TMS.png" alt="Todo">
+            <div class="overlay">
+                <h3>To-Do App</h3>
+                <p>Task manager with CRUD operations</p>
+                <span class="tag">Web</span>
+                <a href="https://github.com/Goyalsimran14/todo_web">GitHub</a>
+            </div>
+        </div>
+
+             <div class="project-card">
+            <img src="TBF.png" alt="TBF">
+            <div class="overlay">
+                <h3>Condition Monitoring (TBF)</h3>
+                <p>IoT predictive maintenance system</p>
+                <span class="tag">IoT</span>
+                <a href="https://github.com/Goyalsimran14/Condition-based-monitoring-and-maintenance-system-for-Tunnel-Booster-Fans--TBFs-">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="AT.png" alt="AgroTechn">
+            <div class="overlay">
+                <h3>AgroTechn</h3>
+                <p>Smart agriculture solution</p>
+                <span class="tag">AgriTech</span>
+                <a href="https://github.com/Goyalsimran14/AgroTechn">GitHub</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="achievements" class="achievements hidden">
+    <h2>Achievements & Experience</h2>
+
+
+
+    <!-- 🌟 Featured -->
+    <div class="featured-achievement">
+        <h3>🏆 SIH 2024 – National Finalist</h3>
+        <p>
+            Selected at national level in Smart India Hackathon, showcasing innovation, teamwork, and problem-solving skills.
+        </p>
+    </div>
+
+    <!-- 🎴 Cards -->
+    <div class="achievements-grid">
+
+        <div class="achievement-card">
+            <h3>🚀 WittyHacks 4.0</h3>
+            <p>Built an innovative solution in a 36-hour hackathon.</p>
+            <span class="tag">Hackathon</span>
+        </div>
+
+        <div class="achievement-card">
+            <h3>💡 HackJKLU 2025</h3>
+            <p>Developed IoT + ML grain quality analyzer.</p>
+            <span class="tag">IoT</span>
+        </div>
+
+        <div class="achievement-card">
+            <h3>📊 Data Analytics Internship</h3>
+            <p>Worked on data visualization and insights.</p>
+            <span class="tag">Internship</span>
+        </div>
+
+        <div class="achievement-card">
+            <h3>🧪 IT Internship (SATI)</h3>
+            <p>Hands-on ML and embedded systems experience.</p>
+            <span class="tag">Internship</span>
+        </div>
+
+        <div class="achievement-card">
+            <h3>🤝 Volunteer Experience</h3>
+            <p>Organized SIH & technical events.</p>
+            <span class="tag">Leadership</span>
+        </div>
+
+    </div>
+</section>
+<section id="contact" class="contact hidden">
+    <h2>Get In Touch</h2>
+
+    <form class="contact-form" action="https://formspree.io/f/mgvyoklk" method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message 🚀</button>
+        <p id="success" style="display:none; text-align:center; color:#60a5fa;">
+    Message sent successfully!
+</p>
+
+    </form>
+</section>
+<footer class="footer">
+
+    <div class="footer-icons">
+        <a href="mailto:goyalsimran791@gmail.com">
+            <img src="https://img.icons8.com/fluency/48/email.png"/>
+        </a>
+
+        <a href="https://github.com/Goyalsimran14" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/48/github.png"/>
+        </a>
+
+        <a href="https://www.linkedin.com/in/simran-goyal-513111256" target="_blank">
+            <img src="https://img.icons8.com/color/48/linkedin.png"/>
+        </a>
+    </div>
+
+    <p>© 2026 Simran Goyal | All Rights Reserved</p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
